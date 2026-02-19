@@ -10,7 +10,7 @@ from openpyxl import load_workbook
 # ==================== CONFIG ====================
 GRAPH = "https://graph.microsoft.com/v1.0"
 
-MAILBOX_UPN = os.getenv("MAILBOX_UPN", "apatil@glassdoctordfw.com")
+MAILBOX_UPN = "apatil@glassdoctordfw.com"
 DRIVE_ID = os.getenv("DRIVE_ID", "")
 ITEM_ID  = os.getenv("ITEM_ID", "")
 
